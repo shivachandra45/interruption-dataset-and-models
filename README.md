@@ -7,24 +7,27 @@ The work focuses on enabling conversational agents to **interrupt users during m
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
-├── dataset/ # Custom dataset developed for interruption modelling
-│ ├── dataset_for_thesis_interruption.zip
-│ └── ...
+```plaintext
+.
+├── dataset/                 # Custom dataset developed for interruption modelling
+│   ├── dataset_for_thesis_interruption.zip
+│   └── ...
 │
-├── models/ # Fine-tuned DistilBERT checkpoints under varied configurations
-│ ├── lr1.5e-5_bs8_noep_20_dr_0.2_fz_0.zip
-│ ├── lr1.5e-5_bs8_noep_20_dr_0.3_fz_0.zip
-│ ├── lr1.5e-5_bs16_noep_30_dr_0.2_fz_1.zip
-│ └── lr2e-5_bs8_noep_20_dr_0.1_fz_0.zip
+├── models/                  # Fine-tuned DistilBERT checkpoints under varied configurations
+│   ├── lr1.5e-5_bs8_noep_20_dr_0.2_fz_0.zip
+│   ├── lr1.5e-5_bs8_noep_20_dr_0.3_fz_0.zip
+│   ├── lr1.5e-5_bs16_noep_30_dr_0.2_fz_1.zip
+│   └── lr2e-5_bs8_noep_20_dr_0.1_fz_0.zip
 │
-├── .gitattributes # LFS tracking configuration
-└── .gitignore # Ignored files and temporary artifacts
+├── .gitattributes           # LFS tracking configuration
+└── .gitignore               # Ignored files and temporary artifacts
+
 
 ---
 
-## 🧠 Dataset Overview
+## Dataset Overview
 
 The dataset extends the **Fake News Challenge (FNC-1)** corpus into a *conversational, speech-like format*, representing simulated user utterances paired with system reference statements.  
 Each entry is labelled across **eight semantically nuanced classes** representing stance and interruption behaviour:
