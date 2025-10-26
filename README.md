@@ -72,7 +72,7 @@ https://github.com/shivachandra45/thesisProject
 
 If you use this dataset or model in your research, please cite:
 
-Shiva Chandra Kandula. (2025). Decisive Turn-Taking Interruption: A Framework for Real-Time Semantic Disagreement Detection.
+Shiva Chandra Kandula. (2025). Developing a Framework for Semantic Disagreement Interruption Turn-taking Model.
 Master’s Thesis, Blekinge Institute of Technology (BTH), Sweden.
 
 ---
